@@ -3,7 +3,7 @@ Global Styles
 *********************/
 * {
   box-sizing: border-box;
-}
+  }
 
 /*********************
     Header Styles
@@ -68,17 +68,17 @@ footer img {
 }
 
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 2.75em;
   text-align: center;
-  text-decoration: underline;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-  margin: 10px 0;
+  margin: 15px 0;
+  text-decoration: underline;
 }
 
 h3 {
@@ -93,21 +93,53 @@ h4 {
   margin: 10px 0;
 }
 
-li {
-  list-style: initial;
+p {
+  line-height: 1.25;
+  text-align: center;
 }
+
+h3, h4 {
+  text-align: center;
+}
+
 /*********************
     Bio Styles
 *********************/
 
 
 .profile-image {
-  border-radius: 50%;
+  border-radius: 25px;
   margin: 20px auto;
   display: block;
-  width: 75%;
+  width: 80%;
   box-shadow: 0 0 5px;
 }
+
+.about-me p {
+  text-align: center;
+}
+
+aside {
+  background-color: #999;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+/*********************
+   Resume Styles
+*********************/
+
+
+
+
+/*********************
+   Code-page Styles
+*********************/
+
+.no-bullets {
+  list-style: none;
+  margin: 15px 0;
+}
+
 
 /*********************
     Gallery Styles
@@ -115,6 +147,17 @@ li {
 
 figure img {
   width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 0 8px black;
+}
+
+figure {
+  margin: 15px 0;
+}
+
+figcaption {
+  padding-top: 10px;
+  text-align: center;
 }
 
 
@@ -127,7 +170,7 @@ figure img {
 }
 
 
-.form-block input {
+.form-block input, textarea {
   display: block;
   margin: 0 auto;
 }
@@ -146,3 +189,125 @@ input[type="submit"] {
 input[type="submit"]:hover {
   cursor: pointer;
 }
+
+
+ 
+
+
+/*********************
+    Media Queries 
+*********************/
+
+@media screen and (min-width: 768px){
+
+
+/*********************
+    Header Styles
+*********************/
+
+nav {
+  background-color: #efefef;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+nav li {
+  padding: 8px 0;
+  display: inline-block;
+  margin: 0 3.5%;
+}
+
+nav li a:hover {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+
+/*********************
+    Bio Styles
+*********************/
+
+.profile-image {
+  width: 50%;
+}
+
+
+
+/*********************
+    Resume Styles
+*********************/
+
+article h3, h4 {
+  text-align: left;
+}
+
+
+
+/*********************
+    Contact Styles
+*********************/
+
+
+
+
+
+/*********************
+    Gallery Styles
+*********************/
+
+
+  .img-container {
+    width: 30%;
+    float: left;
+    margin: 0 1.6%;
+  }
+
+  
+
+  .img-container img {
+    height: 200px;
+  }
+
+
+
+}
+
+@media screen and (min-width: 1024px){
+
+
+
+
+
+
+/*********************
+    Gallery Styles
+*********************/
+
+
+  .img-container img {
+    height: 250px;
+  }
+
+  .img-container {
+    width: 20%;
+    float: left;
+    margin: 0 2.5%;
+  }
+
+  .img-container:nth-child(4n+1) {
+    clear: both;
+  }
+
+}
+
+
+footer {
+  clear: both;
+}
+
+
+
+
+
+

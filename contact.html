@@ -3,13 +3,15 @@
 <head>
 	<title>Contact | Ian Powell</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" type="text/css" href="lib/css/reset.css">
   <link rel="stylesheet" type="text/css" href="lib/css/main.css">
+  <script src="lib/scripts/scripts.js"></script>
 </head>
 <body>
 	<header>
 		<div class="banner">
-	    <img src="lib/img/banner.jpg">
+	    <img src="lib/img/banner.jpg" alt="Ian Powell Hero Image">
 	  </div>
 	  <div class="navbar">
 	    <nav>
@@ -24,9 +26,10 @@
 	    </nav>
 	  </div>
   </header>
+
   <main class="main-content">
   	<h1>Contact Me!</h1>
-  	<form action="#" method="GET" name="contact">
+  	<form action="#" method="GET" name="contact"  onSubmit="formValidation()">
 
 	  	<div class="form-block">
 		  	<label for="name">Name:*</label>
@@ -53,7 +56,7 @@
 		  	<textarea rows="4" cols="50" placeholder="Type your comment here!" id="comment"></textarea>
 	  	</div>
 
-	  	<input type="submit" name="submit" value="Submit" onclick="formValidation()">
+	  	<input type="submit" name="submit" value="Submit">
   	</form>
   </main>
 
