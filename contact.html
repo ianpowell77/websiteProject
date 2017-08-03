@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact | Ian Powell</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="lib/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="lib/css/main.css">
+</head>
+<body>
+	<header>
+		<div class="banner">
+	    <img src="lib/img/banner.jpg">
+	  </div>
+	  <div class="navbar">
+	    <nav>
+	      <ul>
+	        <li><a href="index.html">HOME</a></li>
+	        <li><a href="bio.html">BIOGRAPHY</a></li>
+	        <li><a href="resume.html">RESUME</a></li>
+	        <li><a href="code.html">CODE</a></li>
+	        <li><a href="gallery.html">GALLERY</a></li>
+	        <li class="no-border">CONTACT</li>
+	      </ul>
+	    </nav>
+	  </div>
+  </header>
+  <main class="main-content">
+  	<h1>Contact Me!</h1>
+  	<form action="#" method="GET" name="contact">
+
+	  	<div class="form-block">
+		  	<label for="name">Name:*</label>
+		  	<input type="text" name="name" placeholder="Ian" id="name">
+			</div>
+
+	  	<div class="form-block">
+		  	<label for="email">Email:*</label> 
+		  	<input type="email" name="email" placeholder="example@example.com" id="email">
+	  	</div>
+
+	  	<div class="form-block">
+		  	<label for="phone">Phone Number:*</label>
+		  	<input type="tel" name="phone" placeholder="555-555-5555" id="phone">
+	  	</div>
+
+	  	<div class="form-block">
+		  	<label for="company">Company:</label>
+		  	<input type="text" name="company" placeholder="Company" id="company">
+	  	</div>
+
+	  	<div class="form-block">
+		  	<label for="comment">Leave a comment!</label>
+		  	<textarea rows="4" cols="50" placeholder="Type your comment here!" id="comment"></textarea>
+	  	</div>
+
+	  	<input type="submit" name="submit" value="Submit" onclick="formValidation()">
+  	</form>
+  </main>
+
+  <footer>
+  	<a href="https://www.linkedin.com/in/ian-powell-54bb19126/"><img class="linkedin-img" src="lib/img/linked-in.png" alt="linked in thumbnail"></a>
+    <a href="http://roadtohire.org/"><img class="r2h-img" src="lib/img/roadtohirebanner.svg" alt="road to hire thumbnail"></a>
+  </footer>
+</body>
+</html>

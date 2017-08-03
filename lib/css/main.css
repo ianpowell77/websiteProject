@@ -1,7 +1,148 @@
 /*********************
-    Banner Styles
+Global Styles
+*********************/
+* {
+  box-sizing: border-box;
+}
+
+/*********************
+    Header Styles
 *********************/
 
-.banner {
-  background-color: #999;
+
+/* Hero Image */
+.banner img{
+  width: 100%;
+  display: block;
+}
+
+/* Nav Elements */
+
+nav {
+  background-color: #efefef;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+nav li {
+  padding: 8px 0;
+}
+
+nav li a:hover {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+
+/*********************
+    Footer Styles
+*********************/
+
+
+footer {
+  background-color: #efefef;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+}
+.linkedin-img {
+  width: 40px;
+}
+
+.r2h-img {
+  width: 140px;
+}
+
+/*********************
+    Global Styles
+*********************/
+
+
+.main-content {
+  padding: 30px 20px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 2.75em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h4 {
+  font-size: 1.175em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+li {
+  list-style: initial;
+}
+/*********************
+    Bio Styles
+*********************/
+
+
+.profile-image {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 75%;
+  box-shadow: 0 0 5px;
+}
+
+/*********************
+    Gallery Styles
+*********************/
+
+figure img {
+  width: 100%;
+}
+
+
+/*********************
+    Contact Styles
+*********************/
+
+.form-block {
+  margin: 10px;
+}
+
+
+.form-block input {
+  display: block;
+  margin: 0 auto;
+}
+
+.form-block label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
 }
