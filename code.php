@@ -10,27 +10,11 @@
 	</head>
 
 	<body>
-		<header>
-			<div class="banner">
-		    <img src="lib/img/banner.jpg" alt="Ian Powell Hero Image">
-		  </div>
-		  <div class="navbar">
-		    <nav>
-		      <ul>
-		        <li><a href="index.html">HOME</a></li>
-		        <li><a href="bio.html">BIOGRAPHY</a></li>
-		        <li><a href="resume.html">RESUME</a></li>
-		        <li>CODE</li>
-		        <li><a href="gallery.html">GALLERY</a></li>
-		        <li class="no-border"><a href="contact.html">CONTACT</a></li>
-		      </ul>
-		    </nav>
-		  </div>
-		</header>
+		<?php include('inc/header.php'); ?>
 
 		<main class="main-content">
-			<h1>My Code</h1>
-			<h2>My Challenges</h2>
+			<h1>Code</h1>
+			<h2>Challenges</h2>
 			<ul>
 				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="XaWYOg" data-default-tab="js" data-user="ianpowell77" data-embed-version="2" data-pen-title="Dog Running JavaScript Challenge" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/XaWYOg/">Dog Running JavaScript Challenge</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
@@ -43,14 +27,11 @@
 				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="oexKqy" data-default-tab="js" data-user="ianpowell77" data-embed-version="2" data-pen-title="Daily Challenge//LargestNumberInArray" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/oexKqy/">Daily Challenge//LargestNumberInArray</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
 			</ul>
-			<a href="https://codepen.io/collection/DLxGMy/">Click here to view more of my work!</a>
+			<a class="view-more" href="https://codepen.io/collection/DLxGMy/">Click here to view more of my work!</a>
 		</main>
 
 
-		<footer>
-			<a href="https://www.linkedin.com/in/ian-powell-54bb19126/"><img class="linkedin-img" src="lib/img/linked-in.png" alt="linked in thumbnail"></a>
-      <a href="http://roadtohire.org/"><img class="r2h-img" src="lib/img/roadtohirebanner.svg" alt="road to hire thumbnail"></a>
-		</footer>
+		<?php include('inc/footer.php') ?>
 
 	</body>
 </html>

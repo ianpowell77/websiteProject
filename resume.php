@@ -10,44 +10,39 @@
 	</head>
 	<body>
 
-		<header>
-			<div class="banner">
-		    <img src="lib/img/banner.jpg" alt="Ian Powell Hero Image">
-		  </div>
-		  <div class="navbar">
-		    <nav>
-		      <ul>
-		        <li><a href="index.html">HOME</a></li>
-		        <li><a href="bio.html">BIOGRAPHY</a></li>
-		        <li>RESUME</li>
-		        <li><a href="code.html">CODE</a></li>
-		        <li><a href="gallery.html">GALLERY</a></li>
-		        <li class="no-border"><a href="contact.html">CONTACT</a></li>
-		      </ul>
-		    </nav>
-		  </div>
-	  </header>
+	<?php include('inc/header.php'); ?>
 
-	<main class="main-content">
-		<article>	
-			<h1>My Resume</h1>
-			<h2>Work Experience</h2>
+	<main class="main-content">	
+		<h1>Resume</h1>
+
+		<article class="resume">
+
 			<section>
+				<h2>Work Experience</h2>
+				<h3>RoadToHire : Participant</h3>
+				<div class="resume-content">
+					<ul>
+						<li>Develop technological and programming skills through given challenges and projects.</li>
+						<li>Learned multiple programming languages such as: HTML, CSS, JavaScript, PHP, SQL, and C#.</li>
+						<li>Grew professional skills through many workshops including: dining etiquette, interview etiquette, stress management, team building, etc.</li>
+					</ul>
+				</div>
+			
+
+			
 				<h3>Lowe's Foods : Meat Clerk</h3>
 				<div class="resume-content">
-				<h4>Responsiblities</h4>
 					<ul>
 						<li>Exceptional customer service.</li>
 						<li>Maintaining perishable product.</li>
 						<li>Exercising safe practice with meat cutting.</li>
 					</ul>
 				</div>
-			</section>
+			
 
-			<section>
+			
 				<h3>Target : Team Member / Team Leader</h3>
 				<div class="resume-content">
-					<h4>Responsibilities</h4>
 					<ul>
 						<li>Maintaining teams efficiency with strong communication skills.</li>
 						<li>Maintaining a section in the store. Keeping inventory and maintaining presentation.</li>
@@ -63,7 +58,7 @@
 			</section>
 
 			<section>
-			<h2>Strengths</h2>
+				<h2>Strengths</h2>
 				<ul>
 					<li>Adequate understanding of the Spanish language</li>
 					<li>Strong communication skills</li>
@@ -75,9 +70,10 @@
 			<section>
 				<h2>Interests</h2>
 				<ul>
-					<li>I love art and music</li>
+					<li>Art and music</li>
 					<li>Video games and computer hardware</li>
 					<li>Debate and politics</li>
+					<li>Performed in a touring band for 2 years</li>
 				</ul>
 			</section>
 
@@ -92,10 +88,7 @@
 		</article>
 	</main>
 
-	<footer>
-			<a href="https://www.linkedin.com/in/ian-powell-54bb19126/"><img class="linkedin-img" src="lib/img/linked-in.png" alt="linked in thumbnail"></a>
-      <a href="http://roadtohire.org/"><img class="r2h-img" src="lib/img/roadtohirebanner.svg" alt="road to hire thumbnail"></a>
-	</footer>
+	<?php include('inc/footer.php') ?>
 
 	</body>
 </html>

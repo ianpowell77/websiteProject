@@ -10,23 +10,7 @@
   <script src="lib/scripts/scripts.js"></script>
 </head>
 <body>
-	<header>
-		<div class="banner">
-	    <img src="lib/img/banner.jpg" alt="Ian Powell Hero Image">
-	  </div>
-	  <div class="navbar">
-	    <nav>
-	      <ul>
-	        <li><a href="index.html">HOME</a></li>
-	        <li><a href="bio.html">BIOGRAPHY</a></li>
-	        <li><a href="resume.html">RESUME</a></li>
-	        <li><a href="code.html">CODE</a></li>
-	        <li><a href="gallery.html">GALLERY</a></li>
-	        <li class="no-border">CONTACT</li>
-	      </ul>
-	    </nav>
-	  </div>
-  </header>
+	<?php include('inc/header.php'); ?>
 
   <main class="main-content">
   	<h1>Contact Me!</h1>
@@ -61,9 +45,6 @@
   	</form>
   </main>
 
-  <footer>
-  	<a href="https://www.linkedin.com/in/ian-powell-54bb19126/"><img class="linkedin-img" src="lib/img/linked-in.png" alt="linked in thumbnail"></a>
-    <a href="http://roadtohire.org/"><img class="r2h-img" src="lib/img/roadtohirebanner.svg" alt="road to hire thumbnail"></a>
-  </footer>
+  <?php include('inc/footer.php') ?>
 </body>
 </html>
