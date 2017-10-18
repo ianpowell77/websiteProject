@@ -10,6 +10,10 @@ Global Styles
     Header Styles
 *********************/
 
+header{
+  box-shadow: 0 0 3px #222;
+  z-index: 10;
+}
 
 /* Nav Elements */
 
@@ -78,7 +82,7 @@ footer {
 
 .main-content {
   padding: 30px 20px;
-  background: #222;
+  background-image: url('../img/background.jpg');
   overflow: auto;
   color: white;
 }
@@ -92,6 +96,12 @@ h1 {
   font-size: 2.75em;
   text-align: center;
   font-weight: bolder;
+  text-shadow: 0 0 50px black;
+  padding: 10px;
+  background: rgba(239,239,239, .7);
+  width: 20%;
+  margin: 20px auto;
+  border-radius: 3px;
 }
 
 h2 {
@@ -124,7 +134,12 @@ p {
   display: block;
 }
 
-
+.home-heading2 {
+  font-size: 32px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 0 0 20px black;
+}
 
 .home-description-container {
   margin: 20px 0;
@@ -138,6 +153,24 @@ p {
   font-weight: bolder;
   opacity: .5;
   text-shadow: 0 0 3px white;
+}
+
+.featured-work-container {
+  background: rgba(239,239,239, .7);
+  border-radius: 3px;
+  overflow: auto;
+  padding: 20px;
+}
+
+.featured-work {
+  display: inline;
+  float: left;
+  width: 95%;
+  margin: 2.5%;
+}
+
+.featured-work img {
+  width: 100%;
 }
 
 /*********************
@@ -217,8 +250,9 @@ div.cp_embed_wrapper {
 }
 
 .code-container {
-  background: #efefef;
+  background: rgba(239,239,239, .7);
   padding: 40px 0;
+  border-radius: 3px;
 }
 
 .no-bullets {
@@ -282,20 +316,20 @@ input[type="submit"] {
   margin: 0 auto;
   background: #efefef;
   width: 100px;
-  transition: 1s;
+  transition: 500ms;
 }
 
 input[type="submit"]:hover {
   cursor: pointer;
   background: #999;
-  width: 200px;
+  width: 62%;
 }
 
 input {
   border-radius: 3px;
   border: none;
   height: 30px;
-  width: 200px;
+  width: 66%;
   box-shadow: 0 0 3px black;
   text-align: center;
   font-size: 18px;
@@ -305,7 +339,7 @@ textarea {
   border-radius: 3px;
   border: none;
   height: 200px;
-  width: 200px;
+  width: 66%;
   box-shadow: 0 0 3px black;
   font-size: 18px;
 }
@@ -335,7 +369,6 @@ input:focus{
   }
 
   header{
-    box-shadow: 0 0 3px black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -363,10 +396,13 @@ input:focus{
   .home-description {
     font-size: 48px;
     font-weight: bolder;
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 7px white;
     opacity: .6;
   }
 
+  .featured-work {
+    width: 45%;
+  }
 
 /*********************
     Bio Styles
@@ -386,14 +422,14 @@ input:focus{
 *********************/
 
   .form-container {
-    background: #efefef;
+    background: rgba(239,239,239, .7);
     border-radius: 3px;
     color: #222;
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 20px 10px;
-    width: 40%;
+    width: 66%;
   }
 
   .form-block {

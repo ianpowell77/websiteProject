@@ -15,11 +15,17 @@
 
     <main class="main-content">
       <h1>Home</h1>
-      <div class="banner">
-        <img src="lib/img/banner.jpg" alt="Ian Powell Hero Image">
-      </div>
       <div class="home-description-container">
         <p class="home-description">I'm Ian Powell, a passionate front-end developer.</p>
+      </div>
+      <h2 class="home-heading2">Featured Work</h2>
+      <div class="featured-work-container">
+        <ul>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/final"><img src="lib/img/e-commerce.png" alt="Ian Powell E-commerce site"></a></li>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/comment-app"><img src="lib/img/e-commerce.png" alt="Ian Powell Comment Application"></a></li>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/translation-app"><img src="lib/img/e-commerce.png" alt="Ian Powell Translation Application"></a></li>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/team-switcher"><img src="lib/img/e-commerce.png" alt="Ian Powell Team Switcher Application"></a></li>
+        </ul>
       </div>
     </main>
 
