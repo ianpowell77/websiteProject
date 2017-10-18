@@ -34,8 +34,7 @@ nav li:last-child{
 }
 
 nav li a:hover {
-  color: white;
-  text-shadow: 0 0 5px black;
+  color: #999;
 }
 
 nav img {
@@ -92,7 +91,6 @@ h1 {
   margin-bottom: 20px;
   font-size: 2.75em;
   text-align: center;
-  text-shadow: 0 0 3px #999;
   font-weight: bolder;
 }
 
@@ -214,9 +212,21 @@ section p {
    Code-page Styles
 *********************/
 
+div.cp_embed_wrapper {
+  height: 265px;
+}
+
+.code-container {
+  background: #efefef;
+  padding: 40px 0;
+}
+
 .no-bullets {
   list-style: none;
-  margin: 15px 0;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0 0 3px #222;
+  border-radius: 3px;
 }
 
 .view-more {
@@ -316,43 +326,46 @@ input:focus{
 
 @media screen and (min-width: 768px){
 
-.main-content {
-  margin-top: 60px;
-}
+/*********************
+       GLOBAL 
+*********************/
 
-header{
-  box-shadow: 0 0 3px black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+  .main-content {
+    margin-top: 60px;
+  }
 
-.home-description {
-  font-size: 48px;
-  font-weight: bolder;
-  text-shadow: 0 0 3px black;
-  opacity: .6;
-}
+  header{
+    box-shadow: 0 0 3px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 /*********************
     Header Styles
 *********************/
 
-nav {
-  padding: 10px 0;
-  text-align: center;
-}
+  nav {
+    padding: 10px 0;
+    text-align: center;
+  }
 
-nav li {
-  padding: 8px 3.5%;
-  border-right: 1px solid #999;
-  display: inline-block;
-}
+  nav li {
+    padding: 8px 3.5%;
+    border-right: 1px solid #999;
+    display: inline-block;
+  }
 
-nav li a:hover {
-  color: white;
-  text-shadow: 0 0 5px black;
-}
+/*********************
+        HOME
+*********************/
+
+  .home-description {
+    font-size: 48px;
+    font-weight: bolder;
+    text-shadow: 0 0 3px black;
+    opacity: .6;
+  }
 
 
 /*********************
@@ -368,14 +381,42 @@ nav li a:hover {
     margin: 0 auto;
   }
 
+/*********************
+       CONTACT
+*********************/
+
+  .form-container {
+    background: #efefef;
+    border-radius: 3px;
+    color: #222;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    width: 40%;
+  }
+
+  .form-block {
+    display: block;
+    margin: 40px auto;
+  }
+
+  .form-block label, .form-block input {
+    display: block;
+  }
+
+  .form-block input, textarea {
+    margin: 0 auto;
+    width: 75%;
+  }
 
 }
 
 @media screen and (min-width: 1024px){
 
 .resume {
-  width: 50%;
   padding: 0px 80px;
+  width: 50%;
 }
 
 /*********************
@@ -390,14 +431,4 @@ nav li a:hover {
     width: 35%;
     margin: 0 auto;
   }
-
 }
-
-
-
-
-
-
-
-
-

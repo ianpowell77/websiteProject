@@ -15,7 +15,7 @@
 		<main class="main-content">
 			<h1>Code</h1>
 			<h2>Challenges</h2>
-			<ul>
+			<ul class="code-container">
 				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="XaWYOg" data-default-tab="js" data-user="ianpowell77" data-embed-version="2" data-pen-title="Dog Running JavaScript Challenge" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/XaWYOg/">Dog Running JavaScript Challenge</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
 				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="ayzaje" data-default-tab="html,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Medium Challenge / Forms" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/ayzaje/">Medium Challenge / Forms</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
