@@ -1,3 +1,7 @@
+<?php 
+	error_reporting(0);
+?>
+
 <footer>
 	<div class="footer-content">
 		<a href="https://www.linkedin.com/in/ian-powell-54bb19126/"><img class="linkedin-img" src="lib/img/linked-in.png" alt="linked in thumbnail"></a>
