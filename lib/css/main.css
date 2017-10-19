@@ -58,21 +58,38 @@ footer {
   padding-top: 20px;
   border-top: 1px solid black;
   clear: both;
+  overflow: auto;
+}
+
+footer img {
+  float: left;
+  border-radius: 100%;
+  transition: 300ms;
+  margin: 0 10px;
+}
+
+footer img:hover {
+  opacity: .7;
+  transform: rotate(10deg);
 }
 
 .footer-content {
-  display: block;
+  width: 79%;
   margin: 0 auto;
-  width: 85px;
+  overflow: auto;
 }
 
 .linkedin-img {
-  width: 40px;
+  width: 35px;
 }
 
 .r2h-img {
-  width: 40px;
-  border-radius: 10px;
+  width: 35px;
+}
+
+.copyright {
+  clear: left;
+  float: right;
 }
 
 /*********************
@@ -96,12 +113,7 @@ h1 {
   font-size: 2.75em;
   text-align: center;
   font-weight: bolder;
-  text-shadow: 0 0 50px black;
-  padding: 10px;
-  background: rgba(239,239,239, .7);
-  width: 20%;
-  margin: 20px auto;
-  border-radius: 3px;
+  text-shadow: 0 0 20px black;
 }
 
 h2 {
@@ -156,10 +168,12 @@ p {
 }
 
 .featured-work-container {
-  background: rgba(239,239,239, .7);
+  background: #666;
   border-radius: 3px;
   overflow: auto;
   padding: 20px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .featured-work {
@@ -171,27 +185,41 @@ p {
 
 .featured-work img {
   width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 3px #222;
+  transition: 300ms;
+}
+
+.featured-work img:hover {
+  opacity: .7;
 }
 
 /*********************
     Bio Styles
 *********************/
 
+.bio-container {
+  width: 80%;
+  background: #999;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 20px;
+}
 
 .profile-image {
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 20px auto;
   display: block;
   width: 80%;
-  box-shadow: 0 0 1px;
+  box-shadow: 0 0 3px black;
 }
 
 .about-me p {
   text-align: center;
   line-height: 1.5;
   padding: 10px 0; 
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
 }
 
 aside {
@@ -250,9 +278,11 @@ div.cp_embed_wrapper {
 }
 
 .code-container {
-  background: rgba(239,239,239, .7);
-  padding: 40px 0;
+  background: #999;
+  padding: 20px 0;
   border-radius: 3px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .no-bullets {
@@ -266,30 +296,6 @@ div.cp_embed_wrapper {
 .view-more {
   color: white;
 }
-
-
-/*********************
-    Gallery Styles
-*********************/
-
-figure img {
-  width: 100%;
-  border-radius: 25px;
-  box-shadow: 0 0 8px black;
-}
-
-figure {
-  margin: 15px 0;
-}
-
-figcaption {
-  padding: 10px 0;
-  margin: 10px 0;
-  text-align: center;
-  border-top: 1px solid #439ad8;
-  border-bottom: 1px solid #439ad8;
-}
-
 
 /*********************
     Contact Styles
@@ -429,7 +435,7 @@ input:focus{
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 20px 10px;
-    width: 66%;
+    width: 80%;
   }
 
   .form-block {

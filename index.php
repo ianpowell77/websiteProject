@@ -22,9 +22,9 @@
       <div class="featured-work-container">
         <ul>
           <li class="featured-work"><a href="http://ipowell.road2hire.ninja/final"><img src="lib/img/e-commerce.png" alt="Ian Powell E-commerce site"></a></li>
-          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/comment-app"><img src="lib/img/e-commerce.png" alt="Ian Powell Comment Application"></a></li>
-          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/translation-app"><img src="lib/img/e-commerce.png" alt="Ian Powell Translation Application"></a></li>
-          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/team-switcher"><img src="lib/img/e-commerce.png" alt="Ian Powell Team Switcher Application"></a></li>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/comment-app"><img src="lib/img/comment-app.png" alt="Ian Powell Comment Application"></a></li>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/translation-app"><img src="lib/img/translation-app.png" alt="Ian Powell Translation Application"></a></li>
+          <li class="featured-work"><a href="http://ipowell.road2hire.ninja/team-switcher"><img src="lib/img/team-switcher.png" alt="Ian Powell Team Switcher Application"></a></li>
         </ul>
       </div>
     </main>
