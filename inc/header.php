@@ -1,7 +1,7 @@
 <header>
   <div class="navbar">
     <nav>
-      <img src="lib/img/ip-logo.svg" alt="ip-logo">
+      <a href="index.php"><img class="ip-logo" src="lib/img/ip-logo.svg" alt="ip-logo"></a>
       <ul>
         <li><a href="index.php">HOME</a></li>
         <li><a href="bio.php">BIOGRAPHY</a></li>

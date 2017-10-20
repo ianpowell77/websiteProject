@@ -37,14 +37,45 @@ nav li:last-child{
   border: none;
 }
 
-nav li a:hover {
-  color: #999;
+nav li > a {
+  position: relative;
+}
+
+nav li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  background-color: #222;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 nav img {
   float: left;
   margin-left: 20px;
   width: 40px;
+}
+
+.ip-logo{
+  transition: 500ms;
+}
+
+.ip-logo:hover{
+  opacity: .9;
+  transform: scale(1.05) rotate(5deg);
 }
 
 
@@ -70,7 +101,7 @@ footer img {
 
 footer img:hover {
   opacity: .7;
-  transform: rotate(10deg);
+  transform: rotate(20deg);
 }
 
 .footer-content {
@@ -140,12 +171,6 @@ p {
     Home Styles
 *********************/
 
-/* Hero Image */
-.banner img{
-  width: 100%;
-  display: block;
-}
-
 .home-heading2 {
   font-size: 32px;
   font-weight: bolder;
@@ -188,6 +213,10 @@ p {
   border-radius: 3px;
   box-shadow: 0 0 3px #222;
   transition: 300ms;
+}
+
+.featured-work img:hover {
+  transform: scale(1.05) rotate(2deg);
 }
 
 .featured-work img:hover {
@@ -263,6 +292,8 @@ section:last-child {
 section li {
   line-height: 1.3;
   margin: 10px 0 10px 10px;
+  padding-left: 10px;
+  border-left: 3px solid #999;
 }
 
 section p {
@@ -400,10 +431,18 @@ input:focus{
 *********************/
 
   .home-description {
+    color: transparent;
     font-size: 48px;
     font-weight: bolder;
+    text-shadow: 0 0 20px white;
+    transform: translateY(50px);
+    transition: all 1.5s ease-in-out;
+  }
+
+  .fade-in-home-message {
+    color: white;
+    transform: translateY(0px);
     text-shadow: 0 0 7px white;
-    opacity: .6;
   }
 
   .featured-work {

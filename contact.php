@@ -47,7 +47,7 @@
 
 		  	<div class="form-block">
 			  	<label for="name">Name:*</label>
-			  	<input type="text" name="name" placeholder="Ian Powell" id="name">
+			  	<input type="text" name="name" placeholder="name" id="name">
 				</div>
 
 		  	<div class="form-block">
