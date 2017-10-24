@@ -16,18 +16,18 @@
 			<h1>Code</h1>
 			<h2>Challenges</h2>
 			<ul class="code-container">
-				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="XaWYOg" data-default-tab="js" data-user="ianpowell77" data-embed-version="2" data-pen-title="Dog Running JavaScript Challenge" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/XaWYOg/">Dog Running JavaScript Challenge</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
-				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="ayzaje" data-default-tab="html,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Medium Challenge / Forms" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/ayzaje/">Medium Challenge / Forms</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
-				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="Kvwxjr" data-default-tab="css,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Hard Challenge // Dropdown Nav" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/Kvwxjr/">Hard Challenge // Dropdown Nav</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
-				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="oegWPp" data-default-tab="result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Weekly Challenges 7/24  -- VERY EASY" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/oegWPp/">Weekly Challenges 7/24  -- VERY EASY</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
-				<li class="no-bullets"><div><p data-height="265" data-theme-id="0" data-slug-hash="oexKqy" data-default-tab="js" data-user="ianpowell77" data-embed-version="2" data-pen-title="Daily Challenge//LargestNumberInArray" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/oexKqy/">Daily Challenge//LargestNumberInArray</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div></li>
+				<li class="no-bullets"><p data-height="265" data-theme-id="light" data-slug-hash="KvWwEJ" data-default-tab="css,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Layout Exercise 6" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/KvWwEJ/">Layout Exercise 6</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></li>
+				<li class="no-bullets"><p data-height="265" data-theme-id="0" data-slug-hash="GvWJJQ" data-default-tab="css,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Layout Exercise 7" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/GvWJJQ/">Layout Exercise 7</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></li>
+				<li class="no-bullets"><p data-height="265" data-theme-id="light" data-slug-hash="jLmaEO" data-default-tab="css,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Problem 1" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/jLmaEO/">Problem 1</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></li>
+				<li class="no-bullets"><p data-height="265" data-theme-id="0" data-slug-hash="yobRzr" data-default-tab="css,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Very hard layout" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/yobRzr/">Very hard layout</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></li>
+				<li class="no-bullets"><p data-height="265" data-theme-id="light" data-slug-hash="jLGQRj" data-default-tab="js,result" data-user="ianpowell77" data-embed-version="2" data-pen-title="Very Hard // Week 9" class="codepen">See the Pen <a href="https://codepen.io/ianpowell77/pen/jLGQRj/">Very Hard // Week 9</a> by Ian Powell (<a href="https://codepen.io/ianpowell77">@ianpowell77</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+				<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></li>
 			</ul>
-			<a class="view-more" href="https://codepen.io/collection/DLxGMy/">Click here to view more of my work!</a>
+			<a href="https://codepen.io/ianpowell77/"><p class="view-more">Click here to view more of my work!</p></a>
 		</main>
 
 

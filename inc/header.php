@@ -2,7 +2,8 @@
   <div class="navbar">
     <nav>
       <a href="index.php"><img class="ip-logo" src="lib/img/ip-logo.svg" alt="ip-logo"></a>
-      <ul>
+      <button class="menu-btn">Menu</button>
+      <ul class="head-nav hide">
         <li><a href="index.php">HOME</a></li>
         <li><a href="bio.php">BIOGRAPHY</a></li>
         <li><a href="resume.php">RESUME</a></li>

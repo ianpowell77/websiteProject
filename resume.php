@@ -13,10 +13,10 @@
 	<?php include('inc/header.php'); ?>
 
 	<main class="main-content">	
+
 		<h1>Resume</h1>
 
 		<article class="resume">
-
 			<section>
 				<h2>Work Experience</h2>
 				<h3>RoadToHire : Participant</h3>

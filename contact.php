@@ -76,10 +76,6 @@
   </main>
 
   <?php include('inc/footer.php') ?>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="lib/scripts/scripts.js"></script>
+
 </body>
 </html>
